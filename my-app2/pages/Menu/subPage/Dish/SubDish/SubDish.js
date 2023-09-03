@@ -27,7 +27,7 @@ const sub=StyleSheet.create({
         marginTop:10,
     },DishName:{
         fontFamily:"DancingScript_700Bold",
-        fontSize:27,
+        fontSize:30,
         color:"navy",
         textAlign:"center"
     },

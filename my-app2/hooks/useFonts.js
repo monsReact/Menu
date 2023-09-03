@@ -16,6 +16,10 @@ import {
     Gluten_800ExtraBold,
     Gluten_900Black,
   } from '@expo-google-fonts/gluten';
+  import { 
+     CaveatBrush_400Regular 
+    } from '@expo-google-fonts/caveat-brush';
+
 const useFonts = async () => {
   await Font.loadAsync({
     DancingScript_400Regular,
@@ -30,6 +34,8 @@ const useFonts = async () => {
     Gluten_600SemiBold,
     Gluten_700Bold,
     Gluten_800ExtraBold,
+    CaveatBrush_400Regular 
+
   });
 };
 

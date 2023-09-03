@@ -42,30 +42,32 @@ const styles=StyleSheet.create({
         paddingVertical:30,
     },
     subab:{
-        fontSize:20,
+        fontSize:25,
         // textAlign:"left",
-        fontFamily:"DancingScript_700Bold",
+        fontFamily:"CaveatBrush_400Regular",
         marginTop:20,
-        marginRight:20,
         marginBottom:20,
+        textAlign:"center"
         // paddingVertical:30,
     },
     subabd:{
         fontFamily:"DancingScript_700Bold",
         // marginTop:20,
-        marginRight:20,
+        marginLeft:10,
         marginBottom:20,
     },
     imageRight:{
         marginHorizontal:20,
-        marginLeft:230,
+        marginLeft:60,
         borderRadius:10,
-        marginBottom:40
+        marginBottom:40,
+        width:"80%"
     },
     imageLeft:{
         marginHorizontal:20,
         borderRadius:10,
-        marginBottom:40
+        marginBottom:40,
+        width:"80%"
 
     },
 });
