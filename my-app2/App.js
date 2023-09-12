@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from './pages/Home/Home';
@@ -8,17 +8,7 @@ import Menu from './pages/Menu/Menu';
 import Dishes from './pages/Menu/subPage/Dish/Dish';
 import Dish from './pages/Menu/subPage/Dish/SubDish/SubDish';
 const Stack = createNativeStackNavigator();
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  home:{
-    backgroundColor:'#F5F5F5',
-  }
-});
+
 function App() {
   return (
     <NavigationContainer >
